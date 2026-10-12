@@ -1,2 +1,6 @@
 price = int(input("enter the price of the food"))
-quantity = int(input("enter the q"))
+quantity = int(input("enter the quantity"))
+delivery = int(input("enter the delivery charges"))
+discount = int(input("enter the discount price"))
+bill = (price * quantity + delivery) * (1-discount/100)
+print("final bill",bill)

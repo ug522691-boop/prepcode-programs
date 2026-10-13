@@ -1,0 +1,2 @@
+ashok=dict()
+s=input
